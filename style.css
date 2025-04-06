@@ -1,0 +1,227 @@
+
+body{
+    background-color: hsl(332, 29%, 80%);
+    display: flex;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    justify-content: center; 
+    align-items: center;  
+    margin: 0;
+    min-height: 100vh;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+h1, h2, h3, h4, h5, h6, p{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 24px;
+    margin-bottom: 12px;
+  }
+  
+  .container {
+    max-width: 600px;
+    width: 90%; /* allows shrinking/stretching */
+    margin: 0 auto; /* center on larger screens */
+    padding: 1.5rem;
+    background-color: white;
+    text-align: left; /* or center if you want */
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    border-radius: 12px;
+  }
+  
+p{
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+    
+}
+    .preparation {
+        background-color: hsl(30, 54%, 90%);
+        padding: 15px;
+        border-radius: 8px;
+        border: 1px solid hsl(30, 18%, 87%);
+        max-width: 100%; 
+        width: 90%; 
+        margin: 0 auto; 
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+header h1{
+    color: #000000;
+    font-family: 'Young Serif', serif;
+    font-weight: 400; 
+
+    
+}
+h1 {
+    color: hsl(14, 45%, 36%);
+    font-size: 40px;
+    font-family: 'Young Serif', serif;
+    font-weight: 400; 
+}
+h3{
+    color: hsl(332, 51%, 32%);
+    font-weight: 400px; 
+}
+    .content-box{
+    width:90%;
+    margin-bottom: 40px;
+    max-width: 600px;
+    border-radius: 10px;
+
+}
+
+@media (min-width: 1440px) {
+    .content-box {
+        max-width: 700px;
+    }
+}
+@media (max-width: 375px) {
+    .preparation {
+        width: 90%;
+        padding: 10px;
+        text-align: left; 
+    }
+      
+}
+
+@media (max-width: 374px) {
+    .preparation {
+      width: 95%;
+      margin: 0 auto;
+    }
+  }
+img{
+    width: 100%; 
+    max-width: 1000px;  
+    height: auto;  
+    display: block;  
+    margin: 0 auto; 
+    border-radius: 0px !important ; 
+    display: block;
+    object-fit: cover; 
+}
+ 
+.ingredients {
+    margin-bottom: 20px;
+}
+.instructions{
+    font-weight: 400px;
+    color:hsl(14, 45%, 36%);   
+}
+ul {
+    margin-top: 10px; 
+    line-height: 1.8; 
+}
+
+hr {
+    border: none; 
+    height: 2px; 
+    background-color: hsl(13, 32%, 86%);
+    margin: 15px 0; 
+    width: 100%; 
+}
+table {
+    width: 100%;
+    border-collapse: collapse; 
+}
+td {
+    padding: 8px 20px;
+    font-size: 16px; 
+    color: hsl(30, 10%, 34%); 
+}
+tr:not(:last-child) {
+    border-bottom: 1px solid hsl(13, 32%, 86%);
+}
+
+@media (min-width: 1440px) {
+    header {
+        font-size: 48px; 
+        text-align: left; 
+    }
+
+    h1 {
+        font-size: 54px; 
+    }
+
+    .preparation, .content-box {
+        width: 80%; 
+        max-width: 700px; 
+        margin: 20px auto; 
+    } 
+    .ingredients, .instructions {
+        font-size: 18px; 
+    }
+
+    table td {
+        padding: 10px 25px; 
+    }
+
+    hr {
+        margin: 25px 0; 
+    }
+}
+
+.content-box img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+    border-radius: 10px; 
+    object-fit: cover;  
+
+}
+    
+
+.content-box {
+    background-color: hsl(330, 100%, 98%);
+    padding: 20px;
+    width: 90%; 
+    max-width: 600px; 
+    border-radius: 10px;
+    border: 1px solid hsl(330, 50%, 85%);
+    margin-top: 15px;
+    padding:20px;
+    overflow: hidden; 
+}
+
+    .preparation {
+      width: 100%;
+      box-sizing: border-box; 
+      margin: 0 auto 10px auto; 
+    padding: 10px;
+    }
+  
+    @media (max-width: 375px) {
+        .content-box {
+          border: none;     
+         padding: 0;
+          margin: 0;
+          width: 100%;
+        }
+      
+        .content-box img {
+          width: 100vw; 
+          height: auto;
+          display: block;
+          object-fit: cover;
+        }
+      
+        body {
+          margin: 0;
+          padding: 0;
+        }
+      }
+       
+      .text-content {
+        padding: 0 20px;  /* Adjust left-right padding here */
+      
+}
+
+
+
+
+        
+            
